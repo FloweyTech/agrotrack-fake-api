@@ -1,23 +1,12 @@
 {
-  "name": "agrotrack-fake-api",
-  "version": "1.0.0",
-  "description": "A sleek mock REST service for the AgroTrack app—built for agronomists and farmers. Powered by **json-server**, it ships with seed data and clean routes (e.g., `/organizations`, `/plots`, `/reports`) so you can develop and test UI flows without a live backend.",
-  "main": "index.js",
+  "name": "mock-api",
+  "private": true,
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/FloweyTech/agrotrack-mockapi.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/FloweyTech/agrotrack-mockapi/issues"
-  },
-  "homepage": "https://github.com/FloweyTech/agrotrack-mockapi#readme",
-  "devDependencies": {
-    "json-server": "^1.0.0-beta.3"
+  "dependencies": {
+    "json-server": "0.17.4",
+    "cors": "^2.8.5"
   }
 }

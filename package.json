@@ -8,15 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FloweyTech/agrotrack-fake-api.git"
+    "url": "git+https://github.com/FloweyTech/agrotrack-mockapi.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/FloweyTech/agrotrack-fake-api/issues"
+    "url": "https://github.com/FloweyTech/agrotrack-mockapi/issues"
   },
-  "homepage": "https://github.com/FloweyTech/agrotrack-fake-api#readme",
+  "homepage": "https://github.com/FloweyTech/agrotrack-mockapi#readme",
   "devDependencies": {
     "json-server": "^1.0.0-beta.3"
   }
